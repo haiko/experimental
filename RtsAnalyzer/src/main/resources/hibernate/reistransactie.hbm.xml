@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping default-access="field">
+	<class name="nl.ns.rtsanalyzer.domain.OVChipkaartTransactie"
+		table="REISTRANSACTIES" abstract="true">
+		<id name="id" column="ID">
+			<generator class="org.hibernate.id.TableHiLoGenerator">
+				<param name="min_lo">1000000</param>
+			</generator>
+		</id>
+		<discriminator column="TRANSACTIE_TYPE" />
+		<property name="chipId" />
+		<property name="dateCreated"
+			type="org.joda.time.contrib.hibernate.PersistentDateTime" />
+		<property name="notitie" column="note" />
+		<property name="sequenceNumber" type="integer" />
+		<property name="kenmerk">
+			<type name="org.hibernate.type.EnumType">
+				<param name="enumClass">nl.ns.rtsanalyzer.domain.Kenmerk</param>
+				<param name="type">12</param> <!-- store enum name as varchar -->
+			</type>
+		</property>
+
+		<!-- subclasses Reistransacties-->
+		<subclass name="nl.ns.rtsanalyzer.domain.ReisTransactie"
+			abstract="true">
+			<property name="prijs" column="price" type="big_decimal" />
+			<property name="klasse">
+				<type name="org.hibernate.type.EnumType">
+					<param name="enumClass">nl.ns.rtsanalyzer.domain.Klasse</param>
+					<param name="type">12</param> <!-- store enum name as varchar -->
+				</type>
+			</property>
+			<!-- Checkin Checkout -->
+			<subclass name="nl.ns.rtsanalyzer.domain.CiCoReisTransactie" discriminator-value="CICO">
+				<component name="vertrek" class="nl.ns.rtsanalyzer.domain.OVChipEvent">
+					<property name="lokatie" column="departure_location" />
+					<property name="tijdstip" column="departure_time"
+						type="org.joda.time.contrib.hibernate.PersistentDateTime" />
+				</component>
+				<component name="aankomst" class="nl.ns.rtsanalyzer.domain.OVChipEvent">
+					<property name="lokatie" column="arrival_location" />
+					<property name="tijdstip" column="arrival_time"
+						type="org.joda.time.contrib.hibernate.PersistentDateTime" />
+				</component>
+			</subclass>
+
+			<!-- Checkin  -->
+			<subclass name="nl.ns.rtsanalyzer.domain.CiTransactie" discriminator-value="CI">
+				<component name="vertrek" class="nl.ns.rtsanalyzer.domain.OVChipEvent">
+					<property name="lokatie" column="departure_location" />
+					<property name="tijdstip" column="departure_time"
+						type="org.joda.time.contrib.hibernate.PersistentDateTime" />
+				</component>
+			</subclass>
+
+			<!-- Checkout -->
+			<subclass name="nl.ns.rtsanalyzer.domain.CoTransactie" discriminator-value="CO">
+				<component name="aankomst" class="nl.ns.rtsanalyzer.domain.OVChipEvent">
+					<property name="lokatie" column="arrival_location" />
+					<property name="tijdstip" column="arrival_time"
+						type="org.joda.time.contrib.hibernate.PersistentDateTime" />
+				</component>
+			</subclass>
+			<!-- Checkout Reis -->
+			<subclass name="nl.ns.rtsanalyzer.domain.CoReisTransactie" discriminator-value="COREIS">
+				<component name="vertrek" class="nl.ns.rtsanalyzer.domain.OVChipEvent">
+					<property name="lokatie" column="departure_location" />
+					<property name="tijdstip" column="departure_time"
+						type="org.joda.time.contrib.hibernate.PersistentDateTime" />
+				</component>
+				<component name="aankomst" class="nl.ns.rtsanalyzer.domain.OVChipEvent">
+					<property name="lokatie" column="arrival_location" />
+					<property name="tijdstip" column="arrival_time"
+						type="org.joda.time.contrib.hibernate.PersistentDateTime" />
+				</component>
+			</subclass>
+			
+		</subclass>
+		<subclass name="nl.ns.rtsanalyzer.domain.LaadTransactie"
+			abstract="true">
+			<property name="bedrag" column="amount" type="big_decimal" />
+			<component name="oplaadMoment" class="nl.ns.rtsanalyzer.domain.OVChipEvent">
+				<property name="lokatie" column="location" />
+				<property name="tijdstip" column="time"
+					type="org.joda.time.contrib.hibernate.PersistentDateTime" />
+			</component>
+
+			<!-- subclass laadtransacties -->
+			<subclass name="nl.ns.rtsanalyzer.domain.OplaadTransactie"
+				discriminator-value="OPLAAD" />
+			<subclass name="nl.ns.rtsanalyzer.domain.AutomatischOplaadTransactie"
+				discriminator-value="AUTOMATISCH_OPLAAD" />
+		</subclass>
+	</class>
+</hibernate-mapping>

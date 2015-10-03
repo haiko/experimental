@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="domain" size="1292,1230" id="nl.ns.rtsanalyzer.domain" metadata="uml2-1.0" initialized="true" tag="1000" key="32303037303533312D3130303020527473416E616C797A65722F6861696B6F">
+  <children xsi:type="editmodel:EnumerationEditModel" name="Kenmerk" location="239,620" size="109,89" id="nl.ns.rtsanalyzer.domain/Kenmerk" runTimeClassModel="ZAKELIJK%,PRIVE%">
+    <children xsi:type="editmodel:CompartmentEditModel" size="66,36">
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="ZAKELIJK" id="nl.ns.rtsanalyzer.domain/Kenmerk#ZAKELIJK%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="PRIVE" id="nl.ns.rtsanalyzer.domain/Kenmerk#PRIVE%"/>
+    </children>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:EnumerationEditModel" name="Klasse" location="398,620" size="107,89" id="nl.ns.rtsanalyzer.domain/Klasse" runTimeClassModel="TWEEDE%,EERSTE%">
+    <children xsi:type="editmodel:CompartmentEditModel" size="66,36">
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="EERSTE" id="nl.ns.rtsanalyzer.domain/Klasse#EERSTE%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="TWEEDE" id="nl.ns.rtsanalyzer.domain/Klasse#TWEEDE%"/>
+    </children>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="OVChipEvent" location="50,620" size="139,158" id="nl.ns.rtsanalyzer.domain/OVChipEvent" runTimeClassModel="OVChipEvent(),tijdstip,equals(Ljava.lang.Object;),hashCode(),OVChipEvent(Lorg.joda.time.DateTime;Ljava.lang.String;),lokatie">
+    <children xsi:type="editmodel:CompartmentEditModel" size="116,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="lokatie" id="nl.ns.rtsanalyzer.domain/OVChipEvent#lokatie"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tijdstip" id="nl.ns.rtsanalyzer.domain/OVChipEvent#tijdstip"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="100,72">
+      <children xsi:type="editmodel:MethodEditModel" name="OVChipEvent" id="nl.ns.rtsanalyzer.domain/OVChipEvent#OVChipEvent(Lorg.joda.time.DateTime;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="OVChipEvent" id="nl.ns.rtsanalyzer.domain/OVChipEvent#OVChipEvent()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="equals" id="nl.ns.rtsanalyzer.domain/OVChipEvent#equals(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hashCode" id="nl.ns.rtsanalyzer.domain/OVChipEvent#hashCode()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="CiTransactie" location="752,466" size="135,104" id="nl.ns.rtsanalyzer.domain/CiTransactie" runTimeClassModel="hashCode(),equals(Ljava.lang.Object;),CiTransactie(Ljava.math.BigInteger;Ljava.lang.Integer;Lorg.joda.time.DateTime;Lnl.ns.rtsanalyzer.domain.OVChipEvent;Ljava.math.BigDecimal;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="96,54">
+      <children xsi:type="editmodel:MethodEditModel" name="CiTransactie" id="nl.ns.rtsanalyzer.domain/CiTransactie#CiTransactie(Ljava.math.BigInteger;Ljava.lang.Integer;Lorg.joda.time.DateTime;Lnl.ns.rtsanalyzer.domain.OVChipEvent;Ljava.math.BigDecimal;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="equals" id="nl.ns.rtsanalyzer.domain/CiTransactie#equals(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hashCode" id="nl.ns.rtsanalyzer.domain/CiTransactie#hashCode()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="nl.ns.rtsanalyzer.domain/ReisTransactie&lt;-nl.ns.rtsanalyzer.domain/CiTransactie" source="//@children.3" target="//@children.8/@sourceConnections.0" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="67,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.8/@sourceConnections.0" name="ReisTransactie" location="839,294" size="155,104" id="nl.ns.rtsanalyzer.domain/ReisTransactie" runTimeClassModel="ReisTransactie(Ljava.math.BigInteger;Ljava.lang.Integer;Lorg.joda.time.DateTime;Ljava.math.BigDecimal;),prijs,productNaam">
+    <children xsi:type="editmodel:CompartmentEditModel" size="132,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="prijs" id="nl.ns.rtsanalyzer.domain/ReisTransactie#BigDecimal"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="productNaam" id="nl.ns.rtsanalyzer.domain/ReisTransactie#String"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="109,18">
+      <children xsi:type="editmodel:MethodEditModel" name="ReisTransactie" id="nl.ns.rtsanalyzer.domain/ReisTransactie#ReisTransactie(Ljava.math.BigInteger;Ljava.lang.Integer;Lorg.joda.time.DateTime;Ljava.math.BigDecimal;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="nl.ns.rtsanalyzer.domain/OVChipkaartTransactie&lt;-nl.ns.rtsanalyzer.domain/ReisTransactie" source="//@children.4" target="//@children.7/@sourceConnections.0" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="77,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="OplaadTransactie" location="50,466" size="174,68" id="nl.ns.rtsanalyzer.domain/OplaadTransactie" runTimeClassModel="OplaadTransactie(Ljava.math.BigInteger;Ljava.lang.Integer;Lorg.joda.time.DateTime;Ljava.math.BigDecimal;Lnl.ns.rtsanalyzer.domain.OVChipEvent;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="125,18">
+      <children xsi:type="editmodel:MethodEditModel" name="OplaadTransactie" id="nl.ns.rtsanalyzer.domain/OplaadTransactie#OplaadTransactie(Ljava.math.BigInteger;Ljava.lang.Integer;Lorg.joda.time.DateTime;Ljava.math.BigDecimal;Lnl.ns.rtsanalyzer.domain.OVChipEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.10/@sourceConnections.0" autoLocated="true" id="nl.ns.rtsanalyzer.domain/LaadTransactie&lt;-nl.ns.rtsanalyzer.domain/OplaadTransactie" source="//@children.5" target="//@children.7" targetEnd="//@children.5/@sourceConnections.0/@children.1" sourceEnd="//@children.5/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="87,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="78,122" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="CoTransactie" location="1133,466" size="139,104" id="nl.ns.rtsanalyzer.domain/CoTransactie" runTimeClassModel="CoTransactie(Ljava.math.BigInteger;Ljava.lang.Integer;Lorg.joda.time.DateTime;Lnl.ns.rtsanalyzer.domain.OVChipEvent;Ljava.math.BigDecimal;),equals(Ljava.lang.Object;),hashCode()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="100,54">
+      <children xsi:type="editmodel:MethodEditModel" name="CoTransactie" id="nl.ns.rtsanalyzer.domain/CoTransactie#CoTransactie(Ljava.math.BigInteger;Ljava.lang.Integer;Lorg.joda.time.DateTime;Lnl.ns.rtsanalyzer.domain.OVChipEvent;Ljava.math.BigDecimal;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="equals" id="nl.ns.rtsanalyzer.domain/CoTransactie#equals(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hashCode" id="nl.ns.rtsanalyzer.domain/CoTransactie#hashCode()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="nl.ns.rtsanalyzer.domain/ReisTransactie&lt;-nl.ns.rtsanalyzer.domain/CoTransactie" source="//@children.6" target="//@children.8/@sourceConnections.0" targetEnd="//@children.6/@sourceConnections.0/@children.1" sourceEnd="//@children.6/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="69,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.0" name="LaadTransactie" location="511,294" size="157,122" id="nl.ns.rtsanalyzer.domain/LaadTransactie" runTimeClassModel="LaadTransactie(Ljava.math.BigInteger;Ljava.lang.Integer;Lorg.joda.time.DateTime;Ljava.math.BigDecimal;Lnl.ns.rtsanalyzer.domain.OVChipEvent;),bedrag,equals(Ljava.lang.Object;),hashCode()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="126,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="bedrag" id="nl.ns.rtsanalyzer.domain/LaadTransactie#bedrag"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="113,54">
+      <children xsi:type="editmodel:MethodEditModel" name="LaadTransactie" id="nl.ns.rtsanalyzer.domain/LaadTransactie#LaadTransactie(Ljava.math.BigInteger;Ljava.lang.Integer;Lorg.joda.time.DateTime;Ljava.math.BigDecimal;Lnl.ns.rtsanalyzer.domain.OVChipEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="equals" id="nl.ns.rtsanalyzer.domain/LaadTransactie#equals(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hashCode" id="nl.ns.rtsanalyzer.domain/LaadTransactie#hashCode()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.4/@sourceConnections.0" autoLocated="true" id="nl.ns.rtsanalyzer.domain/OVChipkaartTransactie&lt;-nl.ns.rtsanalyzer.domain/LaadTransactie" source="//@children.7" target="//@children.9" targetEnd="//@children.7/@sourceConnections.0/@children.1" sourceEnd="//@children.7/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="78,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="107,194" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="CoReisTransactie" location="551,466" size="171,104" id="nl.ns.rtsanalyzer.domain/CoReisTransactie" runTimeClassModel="hashCode(),equals(Ljava.lang.Object;),CoReisTransactie(Ljava.math.BigInteger;Ljava.lang.Integer;Lorg.joda.time.DateTime;Lnl.ns.rtsanalyzer.domain.OVChipEvent;Lnl.ns.rtsanalyzer.domain.OVChipEvent;Ljava.math.BigDecimal;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="123,54">
+      <children xsi:type="editmodel:MethodEditModel" name="CoReisTransactie" id="nl.ns.rtsanalyzer.domain/CoReisTransactie#CoReisTransactie(Ljava.math.BigInteger;Ljava.lang.Integer;Lorg.joda.time.DateTime;Lnl.ns.rtsanalyzer.domain.OVChipEvent;Lnl.ns.rtsanalyzer.domain.OVChipEvent;Ljava.math.BigDecimal;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="equals" id="nl.ns.rtsanalyzer.domain/CoReisTransactie#equals(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hashCode" id="nl.ns.rtsanalyzer.domain/CoReisTransactie#hashCode()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.3/@sourceConnections.0 //@children.11/@sourceConnections.0 //@children.6/@sourceConnections.0" autoLocated="true" id="nl.ns.rtsanalyzer.domain/ReisTransactie&lt;-nl.ns.rtsanalyzer.domain/CoReisTransactie" source="//@children.8" target="//@children.4" targetEnd="//@children.8/@sourceConnections.0/@children.1" sourceEnd="//@children.8/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="85,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="77,104" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.7/@sourceConnections.0" name="OVChipkaartTransactie" location="645,50" size="215,194" id="nl.ns.rtsanalyzer.domain/OVChipkaartTransactie" runTimeClassModel="id,OVChipkaartTransactie(Ljava.math.BigInteger;Ljava.lang.Integer;Lorg.joda.time.DateTime;),OVChipkaartTransactie(),chipId,dateCreated,sequenceNumber,toString(),notitie">
+    <children xsi:type="editmodel:CompartmentEditModel" size="162,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="chipId" id="nl.ns.rtsanalyzer.domain/OVChipkaartTransactie#BigInteger"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="dateCreated" id="nl.ns.rtsanalyzer.domain/OVChipkaartTransactie#DateTime"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="id" id="nl.ns.rtsanalyzer.domain/OVChipkaartTransactie#id"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="notitie" id="nl.ns.rtsanalyzer.domain/OVChipkaartTransactie#notitie"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sequenceNumber" id="nl.ns.rtsanalyzer.domain/OVChipkaartTransactie#Integer"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="153,54">
+      <children xsi:type="editmodel:MethodEditModel" name="OVChipkaartTransactie" id="nl.ns.rtsanalyzer.domain/OVChipkaartTransactie#OVChipkaartTransactie(Ljava.math.BigInteger;Ljava.lang.Integer;Lorg.joda.time.DateTime;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="OVChipkaartTransactie" id="nl.ns.rtsanalyzer.domain/OVChipkaartTransactie#OVChipkaartTransactie()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="nl.ns.rtsanalyzer.domain/OVChipkaartTransactie#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="AutomatischOplaadTransactie" location="254,466" size="267,68" id="nl.ns.rtsanalyzer.domain/AutomatischOplaadTransactie" runTimeClassModel="AutomatischOplaadTransactie(Ljava.math.BigInteger;Ljava.lang.Integer;Lorg.joda.time.DateTime;Ljava.math.BigDecimal;Lnl.ns.rtsanalyzer.domain.OVChipEvent;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="193,18">
+      <children xsi:type="editmodel:MethodEditModel" name="AutomatischOplaadTransactie" id="nl.ns.rtsanalyzer.domain/AutomatischOplaadTransactie#AutomatischOplaadTransactie(Ljava.math.BigInteger;Ljava.lang.Integer;Lorg.joda.time.DateTime;Ljava.math.BigDecimal;Lnl.ns.rtsanalyzer.domain.OVChipEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="nl.ns.rtsanalyzer.domain/LaadTransactie&lt;-nl.ns.rtsanalyzer.domain/AutomatischOplaadTransactie" source="//@children.10" target="//@children.5/@sourceConnections.0" targetEnd="//@children.10/@sourceConnections.0/@children.1" sourceEnd="//@children.10/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="133,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="CiCoReisTransactie" location="917,466" size="186,104" id="nl.ns.rtsanalyzer.domain/CiCoReisTransactie" runTimeClassModel="hashCode(),equals(Ljava.lang.Object;),CiCoReisTransactie(Ljava.math.BigInteger;Ljava.lang.Integer;Lorg.joda.time.DateTime;Lnl.ns.rtsanalyzer.domain.OVChipEvent;Lnl.ns.rtsanalyzer.domain.OVChipEvent;Ljava.math.BigDecimal;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="133,54">
+      <children xsi:type="editmodel:MethodEditModel" name="CiCoReisTransactie" id="nl.ns.rtsanalyzer.domain/CiCoReisTransactie#CiCoReisTransactie(Ljava.math.BigInteger;Ljava.lang.Integer;Lorg.joda.time.DateTime;Lnl.ns.rtsanalyzer.domain.OVChipEvent;Lnl.ns.rtsanalyzer.domain.OVChipEvent;Ljava.math.BigDecimal;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="equals" id="nl.ns.rtsanalyzer.domain/CiCoReisTransactie#equals(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hashCode" id="nl.ns.rtsanalyzer.domain/CiCoReisTransactie#hashCode()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="nl.ns.rtsanalyzer.domain/ReisTransactie&lt;-nl.ns.rtsanalyzer.domain/CiCoReisTransactie" source="//@children.11" target="//@children.8/@sourceConnections.0" targetEnd="//@children.11/@sourceConnections.0/@children.1" sourceEnd="//@children.11/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="93,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="wireOptions=1;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
