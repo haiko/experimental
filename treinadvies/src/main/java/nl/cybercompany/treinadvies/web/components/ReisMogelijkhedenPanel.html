@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+<wicket:panel>
+		<div id="reismogelijkheden" wicket:id="timeTable">
+			<table id="timetable" class="table table-hover table-reistijden">
+				<thead>
+					<tr  >
+						<th><span><wicket:message key="reismogelijkheden.table.header.vertrek"></wicket:message></span></th>
+						<th colspan="1"></th>
+						<th><span><wicket:message key="reismogelijkheden.table.header.aankomst"></wicket:message></span></th>
+						<th><span><wicket:message key="reismogelijkheden.table.header.overstap"></wicket:message></span></th>
+						<th><span><wicket:message key="reismogelijkheden.table.header.reistijd"></wicket:message></span></th>
+						<th colspan="1"></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr wicket:id="reisMogelijkhedenView" class="shadow-small">
+						<td wicket:id="vertrektijd"></td>
+						<td><i class=" icon-chevron-right"></i></td>
+						<td wicket:id="aankomsttijd"></td>
+						<td wicket:id="overstap"></td>
+						<td wicket:id="reistijd"></td>
+						<td><i class="icon-circle-arrow-right icon-white"></i></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+</wicket:panel>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+<wicket:extend>
+	  <div class="container">
+		<div class="row">
+			<div class="span12">
+				<h4>
+					<wicket:message key="reisadviespage.subtitle" />
+				</h4>
+
+				<h3><span wicket:id="treinreis">Van Amsterdam naar Rotterdam</span></h3>
+				<div wicket:id="container" class="row">
+				    <div wicket:id="placeholder"></div>
+					 <wicket:fragment wicket:id="resultaatFragment">
+						<div wicket:id="reisMogelijkhedenPanel" class="span3"></div>
+						<div wicket:id="reisMogelijkheidPanel" class="span8 offset1"></div>
+					</wicket:fragment>
+					<wicket:fragment wicket:id="noresultaatFragment">
+						<div class="span12 alert alert-block">
+							<span wicket:id="noresultsLabel">Helaas zijn er geen resultaten gevonden. Probeert u het opnieuw. Misschien zijn de stationsnamen niet correct?</span>
+						</div>
+					</wicket:fragment>
+				</div>
+			</div>
+		</div>
+	</div>
+</wicket:extend>
+</html>

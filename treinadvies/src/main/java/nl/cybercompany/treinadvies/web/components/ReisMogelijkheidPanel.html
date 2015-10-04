@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+<wicket:panel>
+   <div wicket:id="reisMogelijkheidContainer">
+          <span wicket:id="placeholder"></span>
+          <wicket:fragment wicket:id="alertsFragment">
+	   			<div wicket:id="alerts">
+	   				<span wicket:id="text">Wegens werkzaamheden .....</span>
+	   			</div>
+   		   </wicket:fragment>
+   		   <wicket:fragment wicket:id="noalertsFragment"></wicket:fragment>
+			<table class="table table-reismogelijkheid shadow">
+				<thead>
+					<tr>
+						<th>Tijd</th>
+						<th>Station</th>
+						<th>Spoor</th>
+						<th>Reisdetails</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr wicket:id="reisDelenView" class="row-clickable">
+						<td wicket:id="tijd"> 22:3 </td>
+						<td wicket:id="station">Breda</td>
+						<td wicket:id="spoor" class="track">7</td>
+						<td wicket:id="reisDetails"><span title="Treinnummer: 1980">Intercity (NS)</span></td>
+					</tr>
+					</tbody>
+			</table>
+	</div>
+</wicket:panel>
+</html>

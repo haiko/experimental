@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+<wicket:extend>
+	        <div class="container">
+				<h2>Reis plannen</h2>
+				<p>Vul uw vertrek en aankomst station in.</p>
+					<form action="planReis" wicket:id="planReisForm" >
+						<label for="vetrek"> <span class="small"><wicket:message
+									key="label.vertrek">Van</wicket:message>:</span>
+						</label> <input type="text" name="vertrek" wicket:id="vertrekStation" /> <label
+							for="aankomst"><span><wicket:message
+									key="label.aankomst">Naar</wicket:message>:</span> </label> <input type="text"
+							wicket:id="aankomstStation" name="aankomst" />
+							<div class="spacer5"></div>
+						<button wicket:id="submit"  class="btn btn-primary">Plan Reis</button>
+					</form>
+			</div>
+</wicket:extend>
+</html>
