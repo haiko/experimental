@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+
+<ReisMogelijkheden>
+	
+		<ReisMogelijkheid>	
+			
+			<AantalOverstappen>1</AantalOverstappen>
+			<GeplandeReisTijd>1:01</GeplandeReisTijd>
+			
+				<ActueleReisTijd>1:01</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2012-10-20T17:38:00+0200</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2012-10-20T17:38:00+0200</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2012-10-20T18:39:00+0200</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2012-10-20T18:39:00+0200</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>561</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Amersfoort</Naam>
+							<Tijd>2012-10-20T17:38:00+0200</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">2</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+							<ReisStop>
+								<Naam>Zwolle</Naam>
+								<Tijd>2012-10-20T18:14:00+0200</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">3</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Sprinter</VervoerType>
+						<RitNummer>9161</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Zwolle</Naam>
+							<Tijd>2012-10-20T18:23:00+0200</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">14</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+							<ReisStop>
+								<Naam>Meppel</Naam>
+								<Tijd>2012-10-20T18:39:00+0200</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">3</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+			<AantalOverstappen>0</AantalOverstappen>
+			<GeplandeReisTijd>0:55</GeplandeReisTijd>
+			
+				<ActueleReisTijd>0:55</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2012-10-20T18:08:00+0200</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2012-10-20T18:08:00+0200</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2012-10-20T19:03:00+0200</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2012-10-20T19:03:00+0200</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>763</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Amersfoort</Naam>
+							<Tijd>2012-10-20T18:08:00+0200</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">2</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Zwolle</Naam>
+									<Tijd>2012-10-20T18:47:00+0200</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Meppel</Naam>
+								<Tijd>2012-10-20T19:03:00+0200</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">3</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+			<AantalOverstappen>1</AantalOverstappen>
+			<GeplandeReisTijd>1:01</GeplandeReisTijd>
+			
+				<ActueleReisTijd>1:01</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2012-10-20T18:38:00+0200</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2012-10-20T18:38:00+0200</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2012-10-20T19:39:00+0200</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2012-10-20T19:39:00+0200</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>565</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Amersfoort</Naam>
+							<Tijd>2012-10-20T18:38:00+0200</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">2</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+							<ReisStop>
+								<Naam>Zwolle</Naam>
+								<Tijd>2012-10-20T19:14:00+0200</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">3</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Sprinter</VervoerType>
+						<RitNummer>9165</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Zwolle</Naam>
+							<Tijd>2012-10-20T19:23:00+0200</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">14</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+							<ReisStop>
+								<Naam>Meppel</Naam>
+								<Tijd>2012-10-20T19:39:00+0200</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">3</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+			<AantalOverstappen>0</AantalOverstappen>
+			<GeplandeReisTijd>0:55</GeplandeReisTijd>
+			
+				<ActueleReisTijd>0:55</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2012-10-20T19:08:00+0200</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2012-10-20T19:08:00+0200</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2012-10-20T20:03:00+0200</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2012-10-20T20:03:00+0200</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>767</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Amersfoort</Naam>
+							<Tijd>2012-10-20T19:08:00+0200</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">2</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Zwolle</Naam>
+									<Tijd>2012-10-20T19:47:00+0200</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Meppel</Naam>
+								<Tijd>2012-10-20T20:03:00+0200</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">3</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+			<AantalOverstappen>1</AantalOverstappen>
+			<GeplandeReisTijd>1:01</GeplandeReisTijd>
+			
+				<ActueleReisTijd>1:01</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2012-10-20T19:38:00+0200</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2012-10-20T19:38:00+0200</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2012-10-20T20:39:00+0200</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2012-10-20T20:39:00+0200</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>569</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Amersfoort</Naam>
+							<Tijd>2012-10-20T19:38:00+0200</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">2</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+							<ReisStop>
+								<Naam>Zwolle</Naam>
+								<Tijd>2012-10-20T20:14:00+0200</Tijd>
+								
+								  
+									
+										<Spoor wijziging="true">3B</Spoor>
+									  
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Sprinter</VervoerType>
+						<RitNummer>9169</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Zwolle</Naam>
+							<Tijd>2012-10-20T20:23:00+0200</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">14</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+							<ReisStop>
+								<Naam>Meppel</Naam>
+								<Tijd>2012-10-20T20:39:00+0200</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">3</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+			<AantalOverstappen>0</AantalOverstappen>
+			<GeplandeReisTijd>0:55</GeplandeReisTijd>
+			
+				<ActueleReisTijd>0:54</ActueleReisTijd>
+			
+			
+				<VertrekVertraging>+1 min</VertrekVertraging>
+			
+			
+			<Optimaal>true</Optimaal>
+			<GeplandeVertrekTijd>2012-10-20T20:08:00+0200</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2012-10-20T20:09:00+0200</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2012-10-20T21:03:00+0200</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2012-10-20T21:03:00+0200</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VERTRAAGD</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>771</RitNummer>
+             			
+                        
+                              <Status>VERTRAAGD</Status>
+                          
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Amersfoort</Naam>
+							<Tijd>2012-10-20T20:08:00+0200</Tijd>
+							
+								<VertrekVertraging>+1 min</VertrekVertraging>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">2</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Zwolle</Naam>
+									<Tijd>2012-10-20T20:47:00+0200</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Meppel</Naam>
+								<Tijd>2012-10-20T21:03:00+0200</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">3</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+			<AantalOverstappen>1</AantalOverstappen>
+			<GeplandeReisTijd>1:01</GeplandeReisTijd>
+			
+				<ActueleReisTijd>1:01</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2012-10-20T20:38:00+0200</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2012-10-20T20:38:00+0200</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2012-10-20T21:39:00+0200</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2012-10-20T21:39:00+0200</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>573</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Amersfoort</Naam>
+							<Tijd>2012-10-20T20:38:00+0200</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">2</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+							<ReisStop>
+								<Naam>Zwolle</Naam>
+								<Tijd>2012-10-20T21:14:00+0200</Tijd>
+								
+								  
+									
+										<Spoor wijziging="true">3B</Spoor>
+									  
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Sprinter</VervoerType>
+						<RitNummer>9173</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Zwolle</Naam>
+							<Tijd>2012-10-20T21:23:00+0200</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">14</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+							<ReisStop>
+								<Naam>Meppel</Naam>
+								<Tijd>2012-10-20T21:39:00+0200</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">3</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+			<AantalOverstappen>0</AantalOverstappen>
+			<GeplandeReisTijd>0:55</GeplandeReisTijd>
+			
+				<ActueleReisTijd>0:55</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2012-10-20T21:08:00+0200</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2012-10-20T21:08:00+0200</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2012-10-20T22:03:00+0200</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2012-10-20T22:03:00+0200</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>775</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Amersfoort</Naam>
+							<Tijd>2012-10-20T21:08:00+0200</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">2b</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Zwolle</Naam>
+									<Tijd>2012-10-20T21:47:00+0200</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Meppel</Naam>
+								<Tijd>2012-10-20T22:03:00+0200</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">3</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+			<AantalOverstappen>0</AantalOverstappen>
+			<GeplandeReisTijd>0:57</GeplandeReisTijd>
+			
+				<ActueleReisTijd>0:57</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2012-10-20T21:38:00+0200</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2012-10-20T21:38:00+0200</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2012-10-20T22:35:00+0200</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2012-10-20T22:35:00+0200</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>577</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Amersfoort</Naam>
+							<Tijd>2012-10-20T21:38:00+0200</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">2</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Zwolle</Naam>
+									<Tijd>2012-10-20T22:20:00+0200</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Meppel</Naam>
+								<Tijd>2012-10-20T22:35:00+0200</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">3</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+			<AantalOverstappen>0</AantalOverstappen>
+			<GeplandeReisTijd>0:55</GeplandeReisTijd>
+			
+				<ActueleReisTijd>0:55</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2012-10-20T22:08:00+0200</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2012-10-20T22:08:00+0200</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2012-10-20T23:03:00+0200</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2012-10-20T23:03:00+0200</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>779</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Amersfoort</Naam>
+							<Tijd>2012-10-20T22:08:00+0200</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">2</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Zwolle</Naam>
+									<Tijd>2012-10-20T22:47:00+0200</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Meppel</Naam>
+								<Tijd>2012-10-20T23:03:00+0200</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">3</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+			<AantalOverstappen>0</AantalOverstappen>
+			<GeplandeReisTijd>0:57</GeplandeReisTijd>
+			
+				<ActueleReisTijd>0:57</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2012-10-20T22:38:00+0200</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2012-10-20T22:38:00+0200</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2012-10-20T23:35:00+0200</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2012-10-20T23:35:00+0200</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>581</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Amersfoort</Naam>
+							<Tijd>2012-10-20T22:38:00+0200</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">2b</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Zwolle</Naam>
+									<Tijd>2012-10-20T23:20:00+0200</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Meppel</Naam>
+								<Tijd>2012-10-20T23:35:00+0200</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">3</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+</ReisMogelijkheden>
+			

@@ -1,0 +1,1038 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+
+<ReisMogelijkheden>
+	
+		<ReisMogelijkheid>	
+			
+			<AantalOverstappen>0</AantalOverstappen>
+			<GeplandeReisTijd>0:32</GeplandeReisTijd>
+			
+				<ActueleReisTijd>0:32</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2012-10-23T18:00:00+0200</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2012-10-23T18:00:00+0200</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2012-10-23T18:32:00+0200</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2012-10-23T18:32:00+0200</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>3167</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Schiphol</Naam>
+							<Tijd>2012-10-23T18:00:00+0200</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">3</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Amsterdam Zuid</Naam>
+									<Tijd>2012-10-23T18:08:00+0200</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Amsterdam Bijlmer ArenA</Naam>
+									<Tijd>2012-10-23T18:15:00+0200</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Utrecht Centraal</Naam>
+								<Tijd>2012-10-23T18:32:00+0200</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">14</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+			<AantalOverstappen>0</AantalOverstappen>
+			<GeplandeReisTijd>0:32</GeplandeReisTijd>
+			
+				<ActueleReisTijd>0:32</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2012-10-23T18:15:00+0200</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2012-10-23T18:15:00+0200</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2012-10-23T18:47:00+0200</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2012-10-23T18:47:00+0200</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>3567</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Schiphol</Naam>
+							<Tijd>2012-10-23T18:15:00+0200</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">1-2</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Amsterdam Zuid</Naam>
+									<Tijd>2012-10-23T18:23:00+0200</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Amsterdam Bijlmer ArenA</Naam>
+									<Tijd>2012-10-23T18:30:00+0200</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Utrecht Centraal</Naam>
+								<Tijd>2012-10-23T18:47:00+0200</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">15</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+			<AantalOverstappen>0</AantalOverstappen>
+			<GeplandeReisTijd>0:32</GeplandeReisTijd>
+			
+				<ActueleReisTijd>0:32</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2012-10-23T18:30:00+0200</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2012-10-23T18:30:00+0200</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2012-10-23T19:02:00+0200</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2012-10-23T19:02:00+0200</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>3169</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Schiphol</Naam>
+							<Tijd>2012-10-23T18:30:00+0200</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">3</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Amsterdam Zuid</Naam>
+									<Tijd>2012-10-23T18:38:00+0200</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Amsterdam Bijlmer ArenA</Naam>
+									<Tijd>2012-10-23T18:45:00+0200</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Utrecht Centraal</Naam>
+								<Tijd>2012-10-23T19:02:00+0200</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">14</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+			<AantalOverstappen>0</AantalOverstappen>
+			<GeplandeReisTijd>0:32</GeplandeReisTijd>
+			
+				<ActueleReisTijd>0:32</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2012-10-23T18:45:00+0200</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2012-10-23T18:45:00+0200</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2012-10-23T19:17:00+0200</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2012-10-23T19:17:00+0200</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>3569</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Schiphol</Naam>
+							<Tijd>2012-10-23T18:45:00+0200</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">1-2</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Amsterdam Zuid</Naam>
+									<Tijd>2012-10-23T18:53:00+0200</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Amsterdam Bijlmer ArenA</Naam>
+									<Tijd>2012-10-23T19:00:00+0200</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Utrecht Centraal</Naam>
+								<Tijd>2012-10-23T19:17:00+0200</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">15</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+			<AantalOverstappen>0</AantalOverstappen>
+			<GeplandeReisTijd>0:32</GeplandeReisTijd>
+			
+				<ActueleReisTijd>0:32</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2012-10-23T19:00:00+0200</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2012-10-23T19:00:00+0200</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2012-10-23T19:32:00+0200</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2012-10-23T19:32:00+0200</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>3171</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Schiphol</Naam>
+							<Tijd>2012-10-23T19:00:00+0200</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">3</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Amsterdam Zuid</Naam>
+									<Tijd>2012-10-23T19:08:00+0200</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Amsterdam Bijlmer ArenA</Naam>
+									<Tijd>2012-10-23T19:15:00+0200</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Utrecht Centraal</Naam>
+								<Tijd>2012-10-23T19:32:00+0200</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">14</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+			<AantalOverstappen>0</AantalOverstappen>
+			<GeplandeReisTijd>0:32</GeplandeReisTijd>
+			
+				<ActueleReisTijd>0:32</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>true</Optimaal>
+			<GeplandeVertrekTijd>2012-10-23T19:15:00+0200</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2012-10-23T19:15:00+0200</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2012-10-23T19:47:00+0200</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2012-10-23T19:47:00+0200</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>3571</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Schiphol</Naam>
+							<Tijd>2012-10-23T19:15:00+0200</Tijd>
+							
+							  
+								
+									<Spoor wijziging="true">2</Spoor>
+								  
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Amsterdam Zuid</Naam>
+									<Tijd>2012-10-23T19:23:00+0200</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Amsterdam Bijlmer ArenA</Naam>
+									<Tijd>2012-10-23T19:30:00+0200</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Utrecht Centraal</Naam>
+								<Tijd>2012-10-23T19:47:00+0200</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">15</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+					
+						<Melding>
+							<Id></Id>
+							<Ernstig>true</Ernstig>
+							<Text>Dit reisadvies vervalt</Text>
+						</Melding>
+					
+			
+			<AantalOverstappen>0</AantalOverstappen>
+			<GeplandeReisTijd>0:32</GeplandeReisTijd>
+			
+				<ActueleReisTijd>0:32</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2012-10-23T19:30:00+0200</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2012-10-23T19:30:00+0200</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2012-10-23T20:02:00+0200</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2012-10-23T20:02:00+0200</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>NIET-MOGELIJK</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>3173</RitNummer>
+             			
+                        
+                              <Status>GEANNULEERD</Status>
+                          
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Schiphol</Naam>
+							<Tijd>2012-10-23T19:30:00+0200</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">3</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Amsterdam Zuid</Naam>
+									<Tijd>2012-10-23T19:38:00+0200</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Amsterdam Bijlmer ArenA</Naam>
+									<Tijd>2012-10-23T19:45:00+0200</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Utrecht Centraal</Naam>
+								<Tijd>2012-10-23T20:02:00+0200</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">14</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+			<AantalOverstappen>0</AantalOverstappen>
+			<GeplandeReisTijd>0:32</GeplandeReisTijd>
+			
+				<ActueleReisTijd>0:32</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2012-10-23T19:45:00+0200</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2012-10-23T19:45:00+0200</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2012-10-23T20:17:00+0200</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2012-10-23T20:17:00+0200</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>3573</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Schiphol</Naam>
+							<Tijd>2012-10-23T19:45:00+0200</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">1-2</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Amsterdam Zuid</Naam>
+									<Tijd>2012-10-23T19:53:00+0200</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Amsterdam Bijlmer ArenA</Naam>
+									<Tijd>2012-10-23T20:00:00+0200</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Utrecht Centraal</Naam>
+								<Tijd>2012-10-23T20:17:00+0200</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">15</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+			<AantalOverstappen>0</AantalOverstappen>
+			<GeplandeReisTijd>0:32</GeplandeReisTijd>
+			
+				<ActueleReisTijd>0:32</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2012-10-23T20:00:00+0200</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2012-10-23T20:00:00+0200</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2012-10-23T20:32:00+0200</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2012-10-23T20:32:00+0200</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>3175</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Schiphol</Naam>
+							<Tijd>2012-10-23T20:00:00+0200</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">3</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Amsterdam Zuid</Naam>
+									<Tijd>2012-10-23T20:08:00+0200</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Amsterdam Bijlmer ArenA</Naam>
+									<Tijd>2012-10-23T20:15:00+0200</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Utrecht Centraal</Naam>
+								<Tijd>2012-10-23T20:32:00+0200</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">14</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+			<AantalOverstappen>0</AantalOverstappen>
+			<GeplandeReisTijd>0:32</GeplandeReisTijd>
+			
+				<ActueleReisTijd>0:32</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2012-10-23T20:15:00+0200</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2012-10-23T20:15:00+0200</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2012-10-23T20:47:00+0200</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2012-10-23T20:47:00+0200</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>3575</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Schiphol</Naam>
+							<Tijd>2012-10-23T20:15:00+0200</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">1-2</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Amsterdam Zuid</Naam>
+									<Tijd>2012-10-23T20:23:00+0200</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Amsterdam Bijlmer ArenA</Naam>
+									<Tijd>2012-10-23T20:30:00+0200</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Utrecht Centraal</Naam>
+								<Tijd>2012-10-23T20:47:00+0200</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">15</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+			<AantalOverstappen>0</AantalOverstappen>
+			<GeplandeReisTijd>0:32</GeplandeReisTijd>
+			
+				<ActueleReisTijd>0:32</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2012-10-23T20:30:00+0200</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2012-10-23T20:30:00+0200</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2012-10-23T21:02:00+0200</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2012-10-23T21:02:00+0200</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>3177</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Schiphol</Naam>
+							<Tijd>2012-10-23T20:30:00+0200</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">3</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Amsterdam Zuid</Naam>
+									<Tijd>2012-10-23T20:38:00+0200</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Amsterdam Bijlmer ArenA</Naam>
+									<Tijd>2012-10-23T20:45:00+0200</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Utrecht Centraal</Naam>
+								<Tijd>2012-10-23T21:02:00+0200</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">14</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+		<ReisMogelijkheid>	
+			
+			<AantalOverstappen>0</AantalOverstappen>
+			<GeplandeReisTijd>0:32</GeplandeReisTijd>
+			
+				<ActueleReisTijd>0:32</ActueleReisTijd>
+			
+			
+			
+			<Optimaal>false</Optimaal>
+			<GeplandeVertrekTijd>2012-10-23T20:45:00+0200</GeplandeVertrekTijd>
+			<ActueleVertrekTijd>2012-10-23T20:45:00+0200</ActueleVertrekTijd>
+			<GeplandeAankomstTijd>2012-10-23T21:17:00+0200</GeplandeAankomstTijd>
+			<ActueleAankomstTijd>2012-10-23T21:17:00+0200</ActueleAankomstTijd>
+ 			
+            
+ 			    <Status>VOLGENS-PLAN</Status>
+ 			
+			
+ 				<ReisDeel reisSoort="TRAIN">
+					
+                        
+					    <Vervoerder>NS</Vervoerder>
+						<VervoerType>Intercity</VervoerType>
+						<RitNummer>3577</RitNummer>
+             			
+                        
+                              <Status>VOLGENS-PLAN</Status>
+                          
+						
+                         
+						
+                        
+						
+					
+					
+					<ReisStop>
+					  
+						
+							<Naam>Schiphol</Naam>
+							<Tijd>2012-10-23T20:45:00+0200</Tijd>
+							
+							  
+								  
+								
+									<Spoor wijziging="false">1-2</Spoor>
+								 
+														
+						
+						
+					
+					</ReisStop>
+					  
+						
+							
+								<ReisStop>
+									<Naam>Amsterdam Zuid</Naam>
+									<Tijd>2012-10-23T20:53:00+0200</Tijd>
+																		
+								</ReisStop>
+							
+								<ReisStop>
+									<Naam>Amsterdam Bijlmer ArenA</Naam>
+									<Tijd>2012-10-23T21:00:00+0200</Tijd>
+																		
+								</ReisStop>
+							
+							<ReisStop>
+								<Naam>Utrecht Centraal</Naam>
+								<Tijd>2012-10-23T21:17:00+0200</Tijd>
+								
+								  
+									  
+									
+										<Spoor wijziging="false">15</Spoor>
+									 
+								 
+							</ReisStop>
+						
+						
+					
+				</ReisDeel>
+			
+		</ReisMogelijkheid>
+	
+</ReisMogelijkheden>
+			
