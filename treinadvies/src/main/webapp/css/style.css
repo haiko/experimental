@@ -1,0 +1,296 @@
+@import url("jquery-custom.css");
+
+body {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	top: 0;
+	/* 	background-image: url(../images/bg.png); */
+	/* 	background-repeat: repeat; */
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'BebasNeueRegular', Arial, Helvetica, sans-serif;
+	padding: 0px;
+	margin: 0px;
+	color: #cbcaca;
+}
+
+h1,h2 {
+	font-size: 20pt;
+}
+
+p {
+	font-family: 'HelveticaLTStdRoman', Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#content {
+	margin:20px 20px;
+
+}
+
+#hd {
+	width: 100%;
+	height: 87px;
+	background-color: #092E67;
+	margin-top: 0;
+	padding-top: 10px;
+	border-bottom: 1px solid #888;
+	z-index: 0;
+}
+
+#ft {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 99px;
+	background-color: #6493D2;
+	border-top: 1px solid #888;
+	z-index: 0;
+}
+
+#logo,#bd {
+	width: 900px;
+	margin: 0 auto;
+	padding: 25px 50px 0 50px;
+}
+
+#logo h1 {
+	color: white;
+	font-size: 36pt;
+	display: inline;
+}
+
+#logo img {
+	display: inline;
+	vertical-align: bottom;
+	margin-left: 50px;
+	margin-right: 5px;
+}
+
+body {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+#logo,#logo h1 {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+#bd {
+	position: absolute;
+	top: 75px;
+	bottom: 75px;
+	left: 50%;
+	margin-left: -475px;
+	z-index: 1;
+	overflow: auto;
+	background-color: #fff;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-moz-box-shadow: 0px 0px 10px #888;
+	-webkit-box-shadow: 0px 0px 10px #888;
+	box-shadow: 0px 0px 10px #888;
+}
+
+a,a:visited,a:hover,a:active {
+	color: #6493D2;
+}
+
+h2 {
+	padding: 0;
+	margin: 0;
+	font-size: 36pt;
+	color: #FF5500;
+}
+
+h3 {
+	padding: 0;
+	margin: 0;
+	font-size: 24pt;
+	color: #092E67;
+}
+
+input {
+	padding: 5px;
+	margin: 7px;
+}
+
+#form1 {
+	width: 200px;
+}
+
+/*************************/
+/**  input form          */
+/*************************/
+p,h1,form,button {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.spacer {
+	clear: both;
+	height: 1px;
+}
+/* ----------- Form ----------- */
+.form {
+	margin: 0 auto;
+	width: 400px;
+	padding: 14px;
+}
+
+/* ----------- stylized ----------- */
+#stylized {
+	float: left;
+/* 	border: solid 2px #b7ddf2; */
+	/* 	background: #ebf4fb; */
+}
+
+#stylized h1 {
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+
+#stylized p {
+	font-size: 11px;
+	color: #666666;
+	margin-bottom: 20px;
+	border-bottom: solid 1px #b7ddf2;
+	padding-bottom: 10px;
+}
+
+#stylized label {
+	display: block;
+	font-weight: bold;
+	text-align: right;
+	width: 140px;
+	float: left;
+}
+
+#stylized .small {
+	color: #666666;
+	display: block;
+	font-size: 16px;
+	font-weight: normal;
+	text-align: right;
+	width: 140px;
+}
+
+#stylized input {
+	float: left;
+	font-size: 12px;
+	padding: 4px 2px;
+/* 	border: solid 1px #aacfe4; */
+	width: 200px;
+	margin: 2px 0 20px 10px;
+}
+
+#stylized button {
+	clear: both;
+	float:right;
+	margin-right:40px;
+	width: 125px;
+	height: 31px;
+/* 	background: #666666 url(img/button.png) no-repeat; */
+	text-align: center;
+	line-height: 31px;
+/* 	color: #FFFFFF; */
+	font-size: 11px;
+	font-weight: bold;
+}
+
+/**********************************************/
+/*************** Boxes Section ****************/
+/**********************************************/
+
+/* full width*/
+.boxes-full {
+	background-color: white;
+	width: 100%;
+	height: auto;
+	float: left;
+	margin: 15px 0px;
+	border: 1px solid #d5d5d5;
+	text-align: center;
+	position: relative;
+}
+
+.boxes-full h1 {
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+
+/* half width*/
+.boxes-half {
+	background-color: white;
+	width: 48%;
+	height: auto;
+	float: left;
+	margin: 15px 1%;
+	border: 1px solid #d5d5d5;
+	text-align: center;
+	position: relative;
+}
+
+/* 3rd width*/
+.boxes-third {
+	background-color: white;
+	width: 31.1%;
+	height: 100%;
+	float: left;
+	margin: 15px 1%;
+	border: 1px solid #d5d5d5;
+	text-align: center;
+	position: relative;
+}
+
+.boxes-padding {
+	width: 94%;
+	height: 100% !important;
+	padding: 3%;
+}
+
+.fullpadding {
+	padding: 1%;
+	width: 98%;
+}
+
+.box-arrow {
+	background-image: url(../images/arrow-down.png);
+	background-repeat: no-repeat;
+	margin-left: -16px;
+	position: absolute;
+	left: 50%;
+	bottom: -17px;
+	display: block;
+	width: 32px;
+	height: 18px;
+}
+
+.boxes-first {
+	margin-left: 0%;
+	margin-right: 2%;
+}
+
+.boxes-last {
+	margin-right: 0%;
+	margin-left: 2%;
+}
+
+/**********************************************/
+/*************** Home pagina Section **********/
+/**********************************************/
+#reisform {
+	float: left;
+}

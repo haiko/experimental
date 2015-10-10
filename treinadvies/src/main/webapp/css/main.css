@@ -1,0 +1,216 @@
+@import '../less/bootstrap.less';
+
+/*
+ * Custom CSS for this application.
+ *
+ */
+.center_content   {
+	position: relative;
+	padding: 40px 0;
+	 color: #fff;
+	text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+    background: #ADDFF4; /* Old browsers */
+    background: -moz-linear-gradient(45deg,  #ADDFF4 0%, #0D62A9 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#ADDFF4), color-stop(100%,#0D62A9)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(45deg,  #ADDFF4 0%,#0D62A9 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(45deg,  #ADDFF4 0%,#0D62A9 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(45deg,  #ADDFF4 0%,#0D62A9 100%); /* IE10+ */
+    background: linear-gradient(45deg,  #ADDFF4 0%,#0D62A9 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ADDFF4', endColorstr='#0D62A9',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+    -moz-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+}
+
+/*
+  Overrule bootstrap css
+*/
+.navbar-static-top {
+    left: 0;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+}
+
+
+ .spacer {
+	clear: both;
+	height: 1px;
+}
+
+ .spacer5 {
+	clear: both;
+	height: 5px;
+}
+
+.shadow {
+  -moz-box-shadow:    0 3px 5px 0 #333333;
+  -webkit-box-shadow: 0 3px 5px 0 #333333;
+  box-shadow:         0 3px 5px 0 #333333;
+}
+
+.shadow-small {
+  -moz-box-shadow:    0 1px 3px 0 #333333;
+  -webkit-box-shadow: 0 1px 3px 0 #333333;
+  box-shadow:         0 1px 3px 0 #333333;
+}
+
+
+/**
+ *
+ *  Reisadviespage
+ *
+ */
+
+.table-reistijden {
+ border-collapse:separate;
+ border-spacing: 0 5px;
+}
+
+.table-reistijden tbody tr {
+	background: transparent;
+	color:#333333;
+	text-shadow: none;
+	-moz-border-radius: 0 15px 15px 0;
+    -webkit-border-radius: 0 15px 15px 0;
+    border-radius: 8px 15px 15px 8px;
+}
+
+
+.table-reistijden td {
+ background: #FFFFFF;
+ cursor:pointer;
+}
+
+
+.table-reistijden tr td:last-child {
+       background: #2A73B1;
+       border:none;
+       width:10px;
+       -moz-border-radius: 0 15px 15px 0;
+       -webkit-border-radius: 0 15px 15px 0;
+       border-radius: 0 15px 15px 0;
+}
+
+.table-reistijden tr td:first-child {
+
+     -moz-border-radius: 8px 0 0 8px;
+     -webkit-border-radius: 8px 0 0 8px;
+      border-radius: 8px 0 0 8px;
+
+}
+
+.table-reistijden tbody tr:hover td:last-child {
+      background:#8FC7E5;
+}
+
+.table-reistijden tbody tr:hover td {
+      font-size: 17px;
+      padding-left: 12px;
+}
+
+/**
+* reismogelijkheid
+*
+*/
+.table-reismogelijkheid {
+  margin:47px 0 0 0;
+  font-size: 18px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius:8px;
+  border-radius: 8px;
+}
+
+.table-reismogelijkheid tbody tr {
+	color:#333333;
+	text-shadow: none;
+	background: transparent;
+}
+
+.table-reismogelijkheid th {
+	border-bottom: 1px solid #ccc;
+}
+
+
+.table-reismogelijkheid  th, .table-reismogelijkheid td {
+	background-color: #FFFFFF;
+	color:#333333;
+	text-shadow: none;
+	padding:10px 0 10px 25px;
+}
+
+.table-reismogelijkheid  td {
+	background-color: #FFFFFF;
+	color:#333333;
+	text-shadow: none;
+	border:none;
+}
+
+.table-reismogelijkheid th:first-child {
+	-moz-border-radius: 8px 0 0 0;
+    -webkit-border-radius:8px 0 0 0;
+     border-radius: 8px 0 0 0;
+
+}
+
+.table-reismogelijkheid  th:last-child {
+	-moz-border-radius: 0 8px 0 0;
+    -webkit-border-radius: 0 8px 0 0;
+     border-radius: 0 8px 0 0;
+}
+
+.table-reismogelijkheid tbody tr:last-child td:first-child {
+	-moz-border-radius: 0 0 0 8px;
+    -webkit-border-radius: 0 0 0 8px;
+     border-radius: 0 0 0 8px;
+}
+
+.table-reismogelijkheid tbody tr:last-child td:last-child {
+	-moz-border-radius: 0 0 8px 0;
+    -webkit-border-radius: 0 0 8px 0;
+     border-radius: 0 0 8px 0;
+}
+
+.track tbody td {
+	text-align: right;
+}
+
+.odd td {
+	background-color: #F3F3F3;
+}
+
+.tussenstation td {
+	font-size: 14px;
+
+}
+
+.table-reistijden tbody tr.selected td,
+.table-reistijden tbody  tr.selected:hover td
+ {
+	font-size: 18px;
+	cursor: default;
+	padding-left:15px;
+	background-color:#FFFFFF;
+}
+
+.table-reistijden tbody tr.selected td:last-child {
+	padding-left:10px;
+	background-color: #8FC7E5;
+}
+
+
+/*******
+ Debug utilities
+*/
+#wicketDebugBar {
+	z-index: 1000;
+}
+
+
+
+
+
+
+
